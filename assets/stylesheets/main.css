@@ -1,0 +1,222 @@
+body {
+  margin: 0px;
+  font-family: Sans-Serif;
+}
+
+header {
+  background: white;
+  height: 50px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 999;
+}
+
+section {
+  display: inline-block;
+}
+
+h1, h2 {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+h3, h4, p {
+  font-size: 13px;
+}
+
+h4 {
+  font-weight: normal;
+}
+
+
+/* Header sections */
+
+.logo_section {
+  width: 20%;
+}
+
+.search_section {
+  width: 50%;
+}
+
+.link_section {
+  width: 30%;
+}
+
+.logo_section, .search_section, .link_section {
+  height: 50px;
+  position: relative;
+}
+
+/* Body sections */
+.main_section {
+  width: 60%;
+}
+
+.preview_section {
+ width: 40%;
+}
+
+.main_section, .preview_section {
+  height: 1160px;
+  position: relative;
+  margin-top: 50px;
+}
+
+/* Sections under main_section */
+.player_section {
+  width: 100%;
+  height: 420px;
+  position: absolute;
+}
+
+.description_section {
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  top: 420px;
+}
+
+.comment_section {
+  width: 100%;
+  height: 440px;
+  position: absolute;
+  top: 720px;
+}
+
+/* Search section */
+
+#searchbox {
+  position: absolute;
+  width: 85%;
+  height: 26px;
+  font-size: 15px;
+  top: 7px;
+}
+
+#searchbutton {
+  position: absolute;
+  height: 32px;
+  width: 60px;
+  font-size: 15px;
+  left: 85%;
+  top: 7px;
+}
+
+/* Logo-image & Links-image */
+
+#logo, #links {
+  display: inline-block;
+  position: absolute;
+}
+
+#logo {
+  top: 5px;
+  left: 2%;
+  height: 40px;
+}
+
+#links  {
+  right: 2%;
+  height: 50px;
+}
+
+/* Video */
+
+#player_window {
+  position: relative;
+}
+
+iframe {
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 20px;
+    width: 90%;
+    height: 380px;
+    margin-bottom: 20px;
+}
+
+/* Sections under preview-section */
+
+.preview_header_section {
+  width: 100%;
+  height: 40px;
+  position: absolute;
+}
+
+#preview_1_section, #preview_2_section, #preview_3_section, #preview_4_section, #preview_5_section,
+#preview_6_section, #preview_7_section, #preview_8_section {
+  width: 100%;
+  height: 140px;
+  position: absolute;
+}
+
+#preview_1_section {
+  top: 40px;
+}
+
+#preview_2_section {
+  top: 180px;
+}
+
+#preview_3_section {
+  top: 320px;
+}
+
+#preview_4_section {
+  top: 460px;
+}
+
+#preview_5_section {
+  top: 600px;
+}
+
+#preview_6_section {
+  top: 740px;
+}
+
+#preview_7_section {
+  top: 880px;
+}
+
+#preview_8_section {
+  top: 1020px;
+}
+
+.previews {
+  width: 450px;
+  height: 130px;
+  position: relative;
+  top: 5px;
+}
+
+/* Comment section */
+ #video_title, #views {
+   position: relative;
+   left: 5%;
+   width: 90%
+ }
+
+ #description_title, #publication, #description, #show_more {
+   position: relative;
+   left: 10%;
+   width: 85%
+  }
+
+#views, #show_more {
+   color: #696969;
+   padding-bottom: 5px;
+   border-bottom: 1px solid #696969;
+ }
+
+ #description_title {
+   margin-bottom: 0px;
+ }
+
+
+ #publication {
+   color: #696969;
+   margin-top: 0px;
+ }
